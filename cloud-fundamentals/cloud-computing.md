@@ -2,16 +2,11 @@
 
 ## 1. What is Cloud Computing?
 
-Cloud Computing is the on-demand delivery of computing resources such as
-servers, storage, networking, databases and software over a network
-(usually the internet), typically with pay-as-you-go pricing.
+Cloud Computing is the on-demand delivery of computing resources such as servers, storage, networking, databases and software over a network (usually the internet), typically with pay-as-you-go pricing.
 
-Instead of purchasing and maintaining physical infrastructure in their
-own data center, organizations can provision resources from a cloud
-provider whenever they need them.
+Instead of purchasing and maintaining physical infrastructure in their own data center, organizations can provision resources from a cloud provider whenever they need them.
 
 Examples of cloud providers:
-
 -   Oracle Cloud Infrastructure (OCI)
 -   Amazon Web Services (AWS)
 -   Microsoft Azure
@@ -87,44 +82,34 @@ Operating System
 Application
 ```
 
-The exact implementation varies by cloud service and instance type. Not
-every cloud compute service is necessarily a conventional virtual
+The exact implementation varies by cloud service and instance type. Not every cloud compute service is necessarily a conventional virtual
 machine.
 
 ## 5. Key Benefits of Cloud Computing
 
 ### 5.1 Scalability
 
-Scalability is the ability to increase or decrease resources to handle
-changing workload requirements.
+Scalability is the ability to increase or decrease resources to handle changing workload requirements.
 
-For example, an organization can add application instances or increase
-compute capacity when user traffic grows.
+For example, an organization can add application instances or increase compute capacity when user traffic grows.
 
 ### 5.2 Elasticity
 
-Elasticity is the ability to adjust resources dynamically as demand
-changes.
+Elasticity is the ability to adjust resources dynamically as demand changes.
 
-For example, an application can scale out during a traffic spike and
-scale in when demand decreases.
+For example, an application can scale out during a traffic spike and scale in when demand decreases.
 
 ### 5.3 Cost Optimization
 
-Cloud services can reduce the need for large upfront hardware purchases.
-Many services use consumption-based pricing, although the actual cost
-depends on resource usage, service type, configuration and pricing
-model.
+Cloud services can reduce the need for large upfront hardware purchases. Many services use consumption-based pricing, although the actual cost depends on resource usage, service type, configuration and pricing model.
 
 Cloud resources still require budgeting, monitoring and cost governance.
 
 ### 5.4 High Availability
 
-High Availability (HA) is the design of systems to minimize service
-interruption.
+High Availability (HA) is the design of systems to minimize service interruption.
 
-It can involve redundant resources, multiple failure domains, load
-balancing, health checks and automated failover.
+It can involve redundant resources, multiple failure domains, loadbalancing, health checks and automated failover.
 
 **Cloud does not automatically guarantee zero downtime.** Availability
 depends on the architecture, service guarantees, configuration and
@@ -218,47 +203,19 @@ deeper into OKE.
 
 ## 8. Important Cloud Terminology
 
-  -----------------------------------------------------------------------
-  Term                                Meaning
-  ----------------------------------- -----------------------------------
-  Cloud Provider                      Organization that offers cloud
-                                      services
-
-  Region                              Geographic area containing cloud
-                                      infrastructure
-
-  Availability Domain                 Isolated data-center grouping in
-                                      OCI regions that have multiple ADs
-
-  Fault Domain                        Hardware and infrastructure
-                                      grouping designed to limit
-                                      correlated failures within an
-                                      Availability Domain
-
-  Virtualization                      Technology that allows logical
-                                      computing resources to share
-                                      physical infrastructure
-
-  Hypervisor                          Software or firmware layer that
-                                      creates and manages virtual
-                                      machines
-
-  Scalability                         Ability to increase or decrease
-                                      capacity
-
-  Elasticity                          Ability to adjust capacity
-                                      dynamically with demand
-
-  High Availability                   Architecture designed to minimize
-                                      service interruption
-
-  Disaster Recovery                   Processes and systems used to
-                                      restore services after disruption
-
-  Pay-as-you-go                       Pricing based on consumption,
-                                      subject to service-specific pricing
-                                      rules
-  -----------------------------------------------------------------------
+| Term | Meaning |
+| --- | --- |
+| Cloud Provider | Organization that offers cloud services |
+| Region | Geographic area containing cloud infrastructure |
+| Availability Domain | Isolated data-center grouping in OCI regions that have multiple ADs |
+| Fault Domain | Hardware and infrastructure grouping designed to limit correlated failures within an Availability Domain |
+| Virtualization | Technology that allows logical computing resources to share physical infrastructure |
+| Hypervisor | Software or firmware layer that creates and manages virtual machines |
+| Scalability | Ability to increase or decrease capacity |
+| Elasticity | Ability to adjust capacity dynamically with demand |
+| High Availability | Architecture designed to minimize service interruption |
+| Disaster Recovery | Processes and systems used to restore services after disruption |
+| Pay-as-you-go | Pricing based on consumption, subject to service-specific pricing rules |
 
 ## 9. Interview Questions and Answers
 
@@ -326,4 +283,4 @@ Answer these questions:
     recovery?
 6.  What cost and security risks should be considered during migration?
 
-No paid OCI resources are required for this conceptual exercise.
+7. No paid OCI resources are required for this conceptual exercise.
